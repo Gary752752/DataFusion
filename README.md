@@ -6,19 +6,27 @@
 ----hierarchical					//agglomerative hierarchical clustering
 ----kmeans/newCode			// K-means-1 && K-means-2
 ----CalculateDistanceMatrix.java	//Euclidean distance matrix
+
 --CreateQrel  //Create multi-dimensional points for clustering methods
+
 --DataStruct 	//data structure
+
 --Distance	//Implement the calculation of Euclidean distance based on multiple data structures
+
 --evaluation
 ----evalCombi.java		//evaluation of the Combi value
 ----evalIndicatorJ.java		//Evaluation of the J value
 ----evaluationMain.java	//Evaluation of the P10 NDCG MAP CAM of the result
 ----TrecEval.java			//Calculate P10, NDCG, and MAP algorithms
+
 --fusion_Main
 ----fusion1_2_Main.java	//Instantiate the CombSUM algorithm and the CombMNZ algorithm
 ----fusion3_Main.java		//Instantiate the LC algorithm
+
 --fusionAlgorithm//CombSUM and CombMNZ algorithms
+
 --LCfusion //LC algorithms
+
 --normalization //normalization method
 
 The dataset was sourced from TREC between 2020 and 2022. hosted a Health Misinformation Track
