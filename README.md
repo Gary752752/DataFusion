@@ -24,8 +24,8 @@
 The dataset was sourced from TREC between 2020 and 2022. hosted a Health Misinformation Track
 
 When using this project, the following steps need to be carried out
-（1）Preprocess the dataset（normalization or CreateQrel）
-（2）Cluster the dataset(Birch	, Chameleon , hierarchical , kmeans or evalCombi.java or evalIndicatorJ.java or evaluationMain.java)
+（1）Preprocess the dataset（normalization | CreateQrel）
+（2）Cluster the dataset(Birch	| Chameleon | hierarchical | kmeans | evalCombi.java | evalIndicatorJ.java | evaluationMain.java)
 （3）Sort the clustering results(classificationTopMapXLS)
 （4）Perform data fusion on the sorting results(fusion_Main)
 （5）Evaluate the fusion results(evaluationMain.java)
