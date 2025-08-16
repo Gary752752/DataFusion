@@ -21,6 +21,8 @@
 --LCfusion //LC algorithms
 --normalization //normalization method
 
+The dataset was sourced from TREC between 2020 and 2022. hosted a Health Misinformation Track
+
 When using this project, the following steps need to be carried out
 （1）Preprocess the dataset（normalization or CreateQrel）
 （2）Cluster the dataset(Birch	, Chameleon , hierarchical , kmeans or evalCombi.java or evalIndicatorJ.java or evaluationMain.java)
